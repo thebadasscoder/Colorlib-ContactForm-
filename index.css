@@ -1,0 +1,49 @@
+html,body{
+	background-color:  #4CAF50;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+div.contactForm{
+	margin-top: 130px;
+}
+
+
+input.name{
+	width: 260px;
+	height: 25px;
+	margin-left: 30px;
+}
+
+input.email{
+	width: 260px;
+	height: 25px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+input.phoneNumber{
+	width: 260px;
+	height: 25px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+input.website{
+	width: 260px;
+	height: 25px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+textarea.msg{
+	width: 262px;
+	height: 100px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+input.submit{
+	background-color: #4CAF50;
+	color:white;
+}
