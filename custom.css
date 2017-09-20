@@ -1,13 +1,14 @@
 html,body{
 	background-color:  #4CAF50;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
 
 }
 
 div.contactForm{
 	margin-top: 130px;
 	background: #F9F9F9;
-  	padding: 25px;
+  	padding: 5px;
+  	padding-bottom: 25px;
   	margin: 150px 0;
  	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
  	max-width:400px;
@@ -15,56 +16,81 @@ div.contactForm{
   	position: relative;
 }
 
+h1.heading{
+	margin-left: -10px;
+	/*color: #777;*/
+}
+
+h5.subHeading{
+	margin-left: -175px;
+	margin-top: 15px;
+	/*color: #777;*/
+}
 
 input.name{
-	width: 260px;
-	height: 30px;
-	margin-left: 30px;
+	margin-top: 20px;
+	width: 360px;
+	height: 35px;
+	margin-left: -5px;
 	padding: 10px;
+	font-size: 12px;
 }
 
 input.email{
-	width: 260px;
-	height: 30px;
-	margin-left: 30px;
+	width: 360px;
+	height: 35px;
+	margin-left: -5px;
 	margin-top: 10px;
 	padding: 10px;
+	font-size: 12px;
 }
 
 input.phoneNumber{
-	width: 260px;
-	height: 30px;
-	margin-left: 30px;
+	width: 360px;
+	height: 35px;
+	margin-left: -5px;
 	margin-top: 10px;
 	padding: 10px;
+	font-size: 12px;
 }
 
 input.website{
-	width: 260px;
-	height: 30px;
-	margin-left: 30px;
+	width: 360px;
+	height: 35px;
+	margin-left: -5px;
 	margin-top: 10px;
 	padding: 10px;
+	font-size: 12px;
 
 }
 
 textarea.msg{
-	width: 262px;
+	width: 360px;
 	height: 100px;
-	margin-left: 30px;
+	margin-left: -5px;
 	margin-top: 10px;
 	resize: none;
 	border: 1px solid #ccc;
   	padding: 10px;
+  	font-size: 12px;
+  	/*color: #888;*/
 }
 
 input.submit{
 	background-color: #4CAF50;
 	color:white;
-	width: 230px;
-	margin-left: 25px;
+	width: 360px;
+	margin-left: -5px;
   	padding: 10px;
   	font-size: 15px;
   	border: none;
   	cursor: pointer;
+  	margin-top: 5px;
+}
+
+p.copyright{
+	margin-top: 30px;
+	color:#888;
+	font-size: 12px;
+	margin-left: -15px;
 }
