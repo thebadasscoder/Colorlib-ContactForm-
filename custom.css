@@ -6,34 +6,46 @@ html,body{
 
 div.contactForm{
 	margin-top: 130px;
+	background: #F9F9F9;
+  	padding: 25px;
+  	margin: 150px 0;
+ 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+ 	max-width:400px;
+ 	width: 100%;
+  	position: relative;
 }
 
 
 input.name{
 	width: 260px;
-	height: 25px;
+	height: 30px;
 	margin-left: 30px;
+	padding: 10px;
 }
 
 input.email{
 	width: 260px;
-	height: 25px;
+	height: 30px;
 	margin-left: 30px;
 	margin-top: 10px;
+	padding: 10px;
 }
 
 input.phoneNumber{
 	width: 260px;
-	height: 25px;
+	height: 30px;
 	margin-left: 30px;
 	margin-top: 10px;
+	padding: 10px;
 }
 
 input.website{
 	width: 260px;
-	height: 25px;
+	height: 30px;
 	margin-left: 30px;
 	margin-top: 10px;
+	padding: 10px;
+
 }
 
 textarea.msg{
@@ -41,9 +53,18 @@ textarea.msg{
 	height: 100px;
 	margin-left: 30px;
 	margin-top: 10px;
+	resize: none;
+	border: 1px solid #ccc;
+  	padding: 10px;
 }
 
 input.submit{
 	background-color: #4CAF50;
 	color:white;
+	width: 230px;
+	margin-left: 25px;
+  	padding: 10px;
+  	font-size: 15px;
+  	border: none;
+  	cursor: pointer;
 }
